@@ -3,7 +3,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Function X Publish Docker image
+name: PundiAI Publish Docker image
 
 on:
   release:
@@ -39,7 +39,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ghcr.io/functionx/blockscout
+          images: ghcr.io/pundiai/blockscout
 
       - name: Build & Push Docker image
         uses: docker/build-push-action@v3
@@ -47,9 +47,9 @@ jobs:
           context: .
           file: ./docker/Dockerfile
           push: true
-          cache-from: type=registry,ref=ghcr.io/functionx/blockscout:buildcache
-          cache-to: type=registry,ref=ghcr.io/functionx/blockscout:buildcache,mode=max
-          tags: ghcr.io/functionx/blockscout:latest, ghcr.io/functionx/blockscout:${{ env.RELEASE_VERSION }}-rc2
+          cache-from: type=registry,ref=ghcr.io/pundiai/blockscout:buildcache
+          cache-to: type=registry,ref=ghcr.io/pundiai/blockscout:buildcache,mode=max
+          tags: ghcr.io/pundiai/blockscout:latest, ghcr.io/pundiai/blockscout:${{ env.RELEASE_VERSION }}-rc3
           platforms: |
             linux/arm64
             linux/amd64
