@@ -53,7 +53,7 @@ jobs:
           push: true
           cache-from: type=registry,ref=ghcr.io/pundiai/blockscout:buildcache
           cache-to: type=registry,ref=ghcr.io/pundiai/blockscout:buildcache,mode=max
-          tags: ghcr.io/pundiai/blockscout:latest, ghcr.io/pundiai/blockscout:${{ env.RELEASE_VERSION }}-rc4
+          tags: ghcr.io/pundiai/blockscout:latest, ghcr.io/pundiai/blockscout:${{ env.RELEASE_VERSION }}-rc5
           platforms: |
             linux/arm64
             linux/amd64
