@@ -262,9 +262,9 @@ defmodule BlockScoutWeb.LayoutView do
     Keyword.get(application_config(), :fx_explorer_url)
   end
 
-   def fx_forum_url do
-     Keyword.get(application_config(), :fx_forum_url)
-   end
+  def fx_forum_url do
+    Keyword.get(application_config(), :fx_forum_url)
+  end
 
   defp validate_url(url) when is_binary(url) do
     case URI.parse(url) do
