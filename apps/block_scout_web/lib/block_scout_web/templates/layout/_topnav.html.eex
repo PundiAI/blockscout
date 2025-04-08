@@ -23,12 +23,12 @@
         </div>
         <nav class="phone-not-show flex-center">
             <a href="<%= fx_explorer_url() %>" target="_blank" rel="noopener noreferrer" ><i class="icon"></i><strong>Home</strong></a>
-            <a href="<%= fx_explorer_url() %>/fxcore/blocks" target="_blank" rel="noopener noreferrer" ><i class="icon"></i><strong>Blocks</strong></a>
-            <a href="<%= fx_explorer_url() %>/fxcore/txs" target="_blank" rel="noopener noreferrer" ><i class="icon"></i><strong>Transactions</strong></a>
-            <a href="<%= fx_explorer_url() %>/fxcore/validators" target="_blank" rel="noopener noreferrer" ><i class="icon"></i><strong>Validators</strong></a>
-            <a href="<%= fx_explorer_url() %>/fxcore/datas" target="_blank" rel="noopener noreferrer" ><i class="icon"></i><strong>Statistics</strong></a>
-            <a href="<%= fx_explorer_url() %>/fxcore/proposals" target="_blank" rel="noopener noreferrer" ><i class="icon"></i><strong>Proposals</strong></a>
-            <a href="https://forum.starscan.io" target="_blank" rel="noopener noreferrer" ><i class="icon"></i><strong>Forum</strong></a>
+            <a href="<%= fx_explorer_url() %>/pundiaifx/blocks" target="_blank" rel="noopener noreferrer" ><i class="icon"></i><strong>Blocks</strong></a>
+            <a href="<%= fx_explorer_url() %>/pundiaifx/txs" target="_blank" rel="noopener noreferrer" ><i class="icon"></i><strong>Transactions</strong></a>
+            <a href="<%= fx_explorer_url() %>/pundiaifx/validators" target="_blank" rel="noopener noreferrer" ><i class="icon"></i><strong>Validators</strong></a>
+            <a href="<%= fx_explorer_url() %>/pundiaifx/datas" target="_blank" rel="noopener noreferrer" ><i class="icon"></i><strong>Statistics</strong></a>
+            <a href="<%= fx_explorer_url() %>/pundiaifx/proposals" target="_blank" rel="noopener noreferrer" ><i class="icon"></i><strong>Proposals</strong></a>
+            <a href="<%= fx_forum_url() %>" target="_blank" rel="noopener noreferrer" ><i class="icon"></i><strong>Forum</strong></a>
             <a class="back-link" href="<%= fx_explorer_url() %>" target="_blank" rel="noopener noreferrer">
                 <i class="icon icon-back"></i>
                 <strong>Back to PundiScan</strong>

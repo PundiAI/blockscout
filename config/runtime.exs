@@ -69,7 +69,8 @@ config :block_scout_web, BlockScoutWeb.Chain,
   show_maintenance_alert: ConfigHelper.parse_bool_env_var("SHOW_MAINTENANCE_ALERT"),
   enable_testnet_label: ConfigHelper.parse_bool_env_var("SHOW_TESTNET_LABEL"),
   testnet_label_text: System.get_env("TESTNET_LABEL_TEXT", "Testnet"),
-  fx_explorer_url: System.get_env("FX_EXPLORER_URL", "https://starscan.io/")
+  fx_explorer_url: System.get_env("FX_EXPLORER_URL", "https://pundiscan.io/")
+  fx_forum_url: System.get_env("FX_FORUM_URL", "https://forum.pundiscan.io/")
 
 config :block_scout_web, :footer,
   logo: System.get_env("FOOTER_LOGO"),
