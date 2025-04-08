@@ -9,6 +9,10 @@ on:
   release:
     types: [published]
 
+permissions:
+  contents: read
+  packages: write
+
 env:
   OTP_VERSION: '25.2.1'
   ELIXIR_VERSION: '1.14.3'
